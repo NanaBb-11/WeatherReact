@@ -1,0 +1,138 @@
+
+.wrapper-info{
+    display: flex;
+}
+.weather{
+    width: 60%;
+    border-right: 2px solid black;
+}
+.weather-info-UI{
+    height: 325px;
+    overflow: auto;
+}
+
+.weather-now{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+.now-temperature{
+    margin: 25px 25px 0;
+    font-size: 70px;
+    line-height: 82px;
+}
+.now-cover{
+    width: 100%;
+    height: 90px;
+}
+.now-image{
+    margin: 0 auto;
+}
+.now-location{
+    font-size: 40px;
+    line-height: 28px;
+    font-weight: 200;
+    margin: 0 15px 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.now-favorite-button{
+    width: 40px;
+    height: 40px;
+    background: url("../../assets/Shape.svg") center no-repeat;
+}
+
+.weather-details{
+    margin: 35px 15px 0;
+}
+.details-location{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.details-list{
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #7c5561;
+    border-radius: 15px 5px 15px 5px;
+    height: 210px;
+    padding: 20px;
+    border: 1px solid transparent;
+}
+.details-item{
+    color: rgba(255, 255, 255, 0.87);
+    font-size: 28px;
+    font-weight: 200;
+    line-height: 30px;
+    margin: 10px 20px;
+}
+
+
+.weather-forecast{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 28px;
+    margin: 15px 15px 0;
+}
+.forecast-location{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.forecast-item{
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #7c5561;
+    max-height: 130px;
+    border-radius: 15px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 15px;
+}
+.forecast-item-data{
+    font-size: 30px;
+    justify-self: start;
+    align-self: start;
+}
+.forecast-item-time {
+    font-size: 30px;
+    justify-self: end;
+    align-self: start;
+}
+.forecast-item-temperature{
+    justify-self: start;
+    align-self: end;
+}
+.forecast-item-description{
+    max-width: 100px;
+    justify-self: end;
+    align-self: center;
+    text-align: right;
+}
+
+
+.info-menu{
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid black;
+}
+.menu-item{
+    width: 100%;
+    font-size: 18px;
+    padding: 12px 0 0;
+}
+.menu-item:last-child{
+    border-right: none;
+}
+.menu-item-button{
+    width: 100%;
+    line-height: 31px;
+    padding: 12px 0;
+    color: white;
+    background-color: #3f3f3f;
+}
+.menu-item-button--active{
+    background-color: black;
+}

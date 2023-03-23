@@ -1,0 +1,19 @@
+
+#root {
+  place-items: center;
+  width: 600px;
+  max-height: 500px;
+  color: black;
+  background-color: #b47f8a;
+  border: 5px solid #252222;
+  box-shadow: 5px 5px 5px #252222;
+  border-radius: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin: 25px auto 0;
+}
+
+
+
+
+
